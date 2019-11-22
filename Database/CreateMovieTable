@@ -1,0 +1,12 @@
+USE DOUBAN
+CREATE TABLE MOVIE
+(	Movie_id NVARCHAR(20) CONSTRAINT M_Prim PRIMARY KEY,
+	Movie_name NVARCHAR(20),
+	Movie_director NVARCHAR(20),
+	Movie_writer NVARCHAR(20),
+	Movie_actor1 NVARCHAR(20),
+	Movie_actor2 NVARCHAR(20),
+	Movie_actor3 NVARCHAR(20),
+	Movie_type NVARCHAR(20),
+	Movie_language NVARCHAR(20),
+	Movie_date DATE)
