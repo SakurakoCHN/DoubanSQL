@@ -1,0 +1,7 @@
+USE DOUBAN
+CREATE TABLE MovieComment
+(	Comment_id NVARCHAR(20) CONSTRAINT MC_Prim PRIMARY KEY,
+	User_name NVARCHAR(20),
+	Comment_date DATE,
+	Comment_content NVARCHAR(200),
+	Comment_good NVARCHAR(20))
