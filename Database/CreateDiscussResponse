@@ -1,0 +1,6 @@
+USE DOUBAN
+CREATE TABLE DiscussResponse
+(	Disscuss_id NVARCHAR(20) CONSTRAINT DR_Prim PRIMARY KEY,
+	User_name NVARCHAR(20),
+	Response_content NVARCHAR(20),
+	Response_date NVARCHAR(20))
